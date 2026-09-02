@@ -1,0 +1,76 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Conda
+.conda/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Data directories (large files, not tracked)
+data/uploads/
+data/outputs/
+data/temp/
+data/models/
+data/datasets/
+
+# Model weights (too large for git)
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+*.gguf
+*.h5
+
+# Logs
+logs/
+*.log
+
+# Environment
+.env
+.env.local
+
+# Database
+*.db
+*.sqlite3
+
+# Temporary files
+*.tmp
+*.bak
+
+# Research PDFs (already in repo, can be large)
+# Uncomment below if you don't want PDFs tracked
+# *.pdf
+
+# Experiment results (generated, can be reproduced)
+experiments/results/
+
+# Node modules (for future Next.js frontend)
+node_modules/
+.next/
+out/
+
+# Generated artifacts
+*.wav
+*.mp3
+*.mp4
+*.mkv
+*.avi
+!tests/fixtures/*
